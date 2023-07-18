@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 - Food n Fun</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"> <img src="img\logo1.png" width=200px></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#food">foods</a>
+        <a href="#categories">restaurants</a>
+        <a href="#review">review</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/briyani.jpg" alt="">
+            <div class="content">
+                <h3>Briyani</h3>
+                <span class="price"> &#8377 160/-</span>
+                <span class="quantity">qty : 2</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/cn.jpg" alt="">
+            <div class="content">
+                <h3> Chicken Noodles</h3>
+                <span class="price"> &#8377 90 /-</span>
+                <span class="quantity">qty : 2</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/naan.jpg" alt="">
+            <div class="content">
+                <h3>Naan</h3>
+                <span class="price"> &#8377 20/-</span>
+                <span class="quantity">qty : 4</span>
+            </div>
+        </div>
+        <div class="total"> total :  &#8377 580/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <p>are you a restaurant manager<a href="#"> Click Here</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3><span>Happy Grill </span></h3>
+        <p>Nungambakkam High Road · 
+        Address No 166/24, Kodambakkam High Road, Nungambakkam, Chennai - 600034<br> Phone Number : 8042545475</p>
+    </div>
+
+</section>
+<section class="features">
+
+    <h1 class="heading"> <span>Table</span> Details</h1>
+    <div class="box-container">
+    <form action="">
+        <div class="box">
+        <h3>Category</h3>
+        <select name="ac" id="" >
+            <option>Select</option>
+            <option value="AC">AC</option>
+            <option value="Non-AC">Non-AC</option>
+        </select></div>
+        <div class="box">
+        <div class="slidecontainer">
+            <h3>Seaters</h3>
+            <input type="range" min="1" max="12" value="2" class="slider" id="myRange">
+            <p>Count: <span id="demo"></span></p>
+        </div><a href="#features" class="btn">Book Now</a></div>
+        
+        
+
+
+    </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section class="features" id="features">
+
+    <h1 class="heading"> our <span>Menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="food/mutton.jpeg" alt="">
+            <h3>Mutton Briyani</h3>
+            <p>Price : &#8377 190/-</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="box">
+            <img src="food/chetty.jpeg" alt="">
+            <h3>Chettinad Chicken</h3>
+            <p>Price : &#8377 160/-</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="box">
+            <img src="food/prawn.jpeg" alt="">
+            <h3>Prawn Manchurian</h3>
+            <p>Price : &#8377 180/-</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="box">
+            <img src="food/crab.jpeg" alt="">
+            <h3>Crab Lollipop</h3>
+            <p>Price : &#8377 220/-</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="box">
+            <img src="food/fish.jpeg" alt="">
+            <h3>Malabar Fish Curry</h3>
+            <p>Price : &#8377 180/-</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="box">
+            <img src="food/egg.jpeg" alt="">
+            <h3>Egg Masala</h3>
+            <p>Price : &#8377 90/-</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+
+        
+        
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3><img src="img/logo.png" width="100px"></h3>
+            <p></p>
+            <div class="share">
+                <a href="https://www.twitter.com/gayupri17" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/_blue.bull_" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/gayathri-priyanka-ramesh-b19208201" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +916387536055 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> foodnfun@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Tamil Nadu, india - 637405 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> food </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+
+        </div>
+
+        <div class="box">
+            <h3>Your Reviews</h3>
+            <p>Share you experience with us</p>
+            <input type="email" placeholder="Your email" class="email">
+            <textarea placeholder="Give your valuable review" name="review" class="email" cols="30" rows="5"></textarea>
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> ms. gayathri priyanka r</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
